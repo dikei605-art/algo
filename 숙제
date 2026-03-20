@@ -11,3 +11,15 @@ function solution(n_str) {
 }
 
 
+부분문자열
+function solution(str1, str2){
+     let answer = 0; > 리턴 앤서를 입력해야 답이 나오니까 변수로 지정.
+if (str2.includes(str1)) > 스트링2안에 > . 포함하다(무엇이) 참일경우 리턴1 아니면 리턴 0
+{
+    return 1; 
+} 
+    else {
+   return 0;
+}
+   return answer;
+}
